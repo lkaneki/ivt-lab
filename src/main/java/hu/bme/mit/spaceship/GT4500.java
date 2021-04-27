@@ -6,7 +6,7 @@ package hu.bme.mit.spaceship;
 public class GT4500 implements SpaceShip {
 
   private TorpedoStore primaryTorpedoStore;
-  private TorpedoStore longTorpedoStore;
+  private TorpedoStore secondaryTorpedoStore;
 
   private boolean wasPrimaryFiredLast = false;
 
